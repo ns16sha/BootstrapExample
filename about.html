@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Demo</title>
 </head>
 
@@ -69,8 +69,10 @@
                     tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-                    src="https://source.unsplash.com/500x500/?riot" alt="">
+                <img data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                    src="https://source.unsplash.com/500x500/?time" alt="">
 
             </div>
         </div>
@@ -83,7 +85,9 @@
                     tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                <img data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                     src="https://source.unsplash.com/500x500/?water" alt="">
 
             </div>
@@ -97,7 +101,9 @@
                     tellus ac cursus commodo.</p>
             </div>
             <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                <img data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                     src="https://source.unsplash.com/500x500/?games" alt="">
 
             </div>
@@ -122,6 +128,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 3000
+            });
+          </script>
 </body>
 
 </html>
